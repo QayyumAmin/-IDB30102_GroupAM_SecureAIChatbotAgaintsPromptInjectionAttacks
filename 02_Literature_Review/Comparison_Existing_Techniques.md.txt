@@ -1,0 +1,18 @@
+# Comparison of Existing Defense Techniques
+
+Based on the literature review, existing techniques for addressing LLM vulnerabilities fall into three main categories:
+
+1. **Automated Vulnerability Probing (Offensive Testing):**
+   * **Technique:** Using fuzzing (LLM-Fuzzer) and red-teaming tools (*garak*).
+   * **Pros:** Highly effective at identifying weaknesses before deployment.
+   * **Cons:** Context-dependent and relies heavily on oracle accuracy.
+
+2. **Static Defensive Guardrails:**
+   * **Technique:** Utilizing safety judges and baseline filters.
+   * **Pros:** Provides a standardized way to block known malicious prompts.
+   * **Cons:** Vulnerable to adaptive attacks and indirect prompt injections.
+
+3. **Input Paraphrasing & Transformation:**
+   * **Technique:** Altering user input to neutralize malicious intent before it reaches the LLM.
+   * **Pros:** Can disrupt specific prompt-injection syntax.
+   * **Cons:** Trades security for functionality, causing a noticeable drop in the chatbot's ability to answer normal queries correctly.

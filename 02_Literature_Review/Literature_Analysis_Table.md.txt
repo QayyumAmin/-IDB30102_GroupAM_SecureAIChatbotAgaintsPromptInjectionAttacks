@@ -1,0 +1,11 @@
+# Literature Analysis Table: Secure AI Chatbot
+
+This table summarizes the core papers reviewed for developing a secure AI chatbot against prompt injection attacks.
+
+| Author(s) & Year | Objective / Problem | Method / Approach | Key Findings | Limitations |
+| :--- | :--- | :--- | :--- | :--- |
+| **Chao et al. (2024)** | Benchmark LLM jailbreak attacks & defenses | JailbreakBench with baseline defenses | Heuristic attacks reached 93% ASR on GPT-3.5 | Needs continuously updated defenses |
+| **Yu et al. (2024)** | Automate assessment of jailbreak vulnerabilities | LLM-Fuzzer using fuzz testing | Reached 89.20% ASR on GPT-3.5 | Depends heavily on response oracle accuracy |
+| **Liu et al. (2024)** | Compare prompt-injection attacks and defenses | Open-Prompt-Injection platform | Defenses caused a utility drop of ~0.14 | Existing defenses trade security for utility |
+| **O'Connor et al. (2024)** | Investigate RAG systems vulnerability to indirect injections | Malicious context injection in vector DB | 87.3% success rate in altering semantics | Dynamic retrieval poisoning defense remains unresolved |
+| **Derczynski et al. (2024)**| Identify security vulnerabilities in LLMs | *garak* (Automated probing tool) | Discovered weaknesses useful for security decisions | Security is context-dependent |

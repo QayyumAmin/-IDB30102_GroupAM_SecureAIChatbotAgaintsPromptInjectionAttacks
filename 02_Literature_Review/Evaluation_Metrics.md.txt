@@ -1,0 +1,12 @@
+# Evaluation Metrics Extracted from Literature
+
+To evaluate the effectiveness of the proposed secure AI chatbot filtering mechanism, the following metrics have been identified from previous studies:
+
+* **Attack Success Rate (ASR):** 
+  Used to measure the percentage of malicious prompts that successfully bypass the system's defenses (Chao et al., 2024; Yu et al., 2024). The goal is to minimize this rate.
+  
+* **Target-Task Utility Drop (Accuracy):** 
+  Used to measure how much the defense mechanism negatively affects the chatbot's ability to answer normal, benign queries correctly (Liu et al., 2024).
+  
+* **Inference Latency / Response Overhead:** 
+  Crucial for real-time chat applications to ensure the security filter does not introduce unacceptable delays in chatbot responses.

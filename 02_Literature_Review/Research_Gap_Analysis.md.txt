@@ -1,0 +1,11 @@
+# Research Gap Analysis
+
+A synthesis of the reviewed literature reveals a critical gap in securing AI chatbots against prompt injections.
+
+### The Security vs. Utility Trade-off
+While automated benchmarks (Chao et al., 2024) and probing tools (Derczynski et al., 2024) successfully highlight high vulnerability rates in LLMs, current defense mechanisms are fundamentally flawed. 
+
+Defensive techniques such as input paraphrasing significantly degrade the normal utility and accuracy of the chatbot (Liu et al., 2024). Furthermore, static defenses often fail to account for dynamic, indirect prompt injections (O'Connor et al., 2024).
+
+### Proposed Direction
+There is a pressing need for a lightweight, adaptive prompt-filtering mechanism that neutralizes injection attacks in real-time without compromising the conversational utility and response latency of the AI chatbot.

@@ -1,4 +1,4 @@
-# Research papers (Assignment 1, entries 1–10)
+# Research papers 
 
 | No. | Year | Author(s) | Objective / Problem | Dataset / Data Source | Method / Approach / Functionality / Security Process | Evaluation Metrics | Key Findings / Results | Weaknesses / Limitations / Research Gap |
 |---|---|---|---|---|---|---|---|---|
